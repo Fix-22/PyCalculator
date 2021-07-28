@@ -99,7 +99,7 @@ button_add.grid(row=4, column=3)
 button_equals = tk.Button(root, text="=", width=36, height=4, command=lambda: calculate())
 button_equals.grid(row=5, column=0, columnspan=4)
 
-
+#keys
 
 root.bind("1", lambda number: add("1"))
 root.bind("2", lambda number: add("2"))
@@ -124,11 +124,7 @@ root.bind("+", lambda number: add("+"))
 root.bind("<Return>", lambda number: calculate())
 
 
-
-
 root.iconbitmap("calculator.ico")
-
-
 
 
 root.mainloop()
